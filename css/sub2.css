@@ -1,0 +1,308 @@
+*{margin: 0; padding: 0}
+ul{list-style: none;}
+a{text-decoration: none; color: #fff;}
+body{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 24px;
+  line-height: 23px;
+  color: #fff;
+  background-color: #000;
+}
+/*header 시작*/
+#header{
+ height: 265px;
+ width: 100%;
+ top: 0;
+ left: 0;
+ position: absolute;
+}
+.header_bor{
+  height: 265px;
+  border-bottom: 3px solid #5a5a5a;
+}
+.header_inner{ /*1320px*/
+  width: 1320px;
+  margin: auto;
+  padding-top: 58px;
+  position: relative;
+}
+.header_inner h1{ /*logo*/
+  display: block;
+  text-align: center;
+}
+.header_icon{
+  position: absolute;
+  top: 85px;
+  right: 11px;
+  opacity: 0.7;
+}
+.header_icon:hover{
+  transform: scale(1.2);
+  opacity: 1;
+}
+/*메뉴*/
+.nav{
+  width: 1320px;
+}
+.nav li a{
+  display: block;
+  width: 25%;
+  float: left;
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px 0px;
+  font-weight: 500;
+}
+.nav li a:hover{
+  color: #e6a725;
+}
+/*icon_top 버튼 시작*/
+.icon_top{position:fixed; bottom:50px; right:50px; display:none;}
+.icon_top:hover{
+  background-color: rgba(0, 0, 0, 0.7);
+  transform: scale(1.2);
+  border-radius: 50%;
+}
+/*icon_top 버튼 끝*/
+/*nav 끝*/
+
+#lnb{
+  height: 755px;
+  background: url(../images/1-bg2.jpg) no-repeat center top;
+  margin-top: 265px;
+  font-size: 20px;
+  line-height: 20px;
+}
+.inb_inner{
+  width: 1320px;
+  height: 700px;
+  margin: auto;
+  color: #999999;
+  background: url(../images/lnb_inner_bg2.png) no-repeat center top;
+}
+/*이스케이프룸 시작*/
+.box1{
+  width: 330px;
+  height: 700px;
+  float: left;
+  position: relative;
+}
+.box1 h3{ /*로고*/
+  text-align: center;
+  padding-top: 55px;
+  padding-bottom: 31px;
+}
+.box1_icon{
+  background: url(../images/icon_\ left_1.png) no-repeat 89% 50%;
+}
+.box1_line:hover{
+  text-decoration: underline;
+}
+.box1> ul> li a{
+  color: #999999;
+  display: block;
+  padding: 10.5px 37px;
+}
+.box1> ul> li> a:hover{
+  color: #fff;
+  font-weight: 500;
+}
+.box1_icon:hover{
+  background: url(../images/icon_bottom.png) no-repeat 91% 50%;
+}
+/*이스케이프룸 서브메뉴*/
+.box1_sub1{
+  font-size: 18px;
+  margin-left: 17px;
+  line-height: 17px;
+  display: none;
+}
+.star{
+  margin-left: 15px;
+}
+.box1 .box1_sub1 img{
+  margin-right: 6px;
+}
+.box1_sub1 img{
+  opacity: 0.7;
+}
+.box1_sub1 a:hover img{
+  opacity: 1;
+}
+.box1_sub1 a:hover{
+  color: #fbcd06;
+  font-weight: 500;
+  text-decoration: underline;
+}
+.box1 .on> .box1_icon{
+  color: #fff;
+  text-decoration: underline;
+  background: url(../images/icon_\ +.png) no-repeat 91% 50%;
+}
+/*이스케이프룸 서브메뉴 끝*/
+/*앱 다운로드*/
+.app_div{
+  position: absolute;
+  top: 570px;
+  margin-left: 37px;
+}
+.box1_h4{
+  font-size: 16px;
+  color: #c7c7c7;
+  font-weight: 500;
+  margin-top: 22px;
+}
+.app li{
+  float: left;
+  margin-right: 27px;
+  margin-top: 15px;
+}
+.app a{
+  opacity: 0.7;
+}
+.app a:hover{
+  opacity: 1;
+}
+
+/*box3 언락 브레이크인*/
+.box3{
+  width: 330px;
+  height: 700px;
+  float: left;
+}
+.box3 h3{ /*로고*/
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+.box3_icon{
+  background: url(../images/icon_\ left_1.png) no-repeat 89% 50%;
+}
+.box3_line:hover{
+  text-decoration: underline;
+  color: #fff;
+  font-weight: 500;
+}
+.box3> ul> li a{
+  color: #999999;
+  display: block;
+  padding: 10.5px 37px;
+}
+.box3_icon:hover{
+  color: #fbcd06;
+  font-weight: 500;
+  text-decoration: underline;
+  background: url(../images/icon_\ +y.png) no-repeat 91% 50%;
+}
+.box3_2{
+  margin-top: 25px;
+}
+
+  /* 언락 앱 다운로드*/
+.app3_div{
+  margin-left: 37px;
+}
+.box3_h4{
+  font-size: 16px;
+  color: #c7c7c7;
+  font-weight: 500;
+  margin-top: 25px;
+}
+.app3 li{
+  float: left;
+  margin-right: 27px;
+  margin-top: 15px;
+}
+.app3 a{
+  opacity: 0.7;
+}
+.app3 a:hover{
+  opacity: 1;
+}
+/*언락 브레이크인 끝 box3*/
+
+/*box4 더룸 어사일럼*/
+.box4{
+  width: 330px;
+  height: 700px;
+  float: left;
+}
+.box4 h3{ /*로고*/
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 35px;
+}
+.box4_icon{
+  background: url(../images/icon_\ left_1.png) no-repeat 89% 50%;
+}
+.box4_line:hover{
+  text-decoration: underline;
+  color: #fff;
+  font-weight: 500;
+}
+.box4> ul> li a{
+  color: #999999;
+  display: block;
+  padding: 10.5px 37px;
+}
+.box4_icon:hover{
+  color: #fbcd06;
+  font-weight: 500;
+  text-decoration: underline;
+  background: url(../images/icon_\ +y.png) no-repeat 91% 50%;
+}
+.box4_2{
+  margin-top: 150px;
+}
+/*box4 더룸 어사일럼 끝*/
+
+
+/*footer*/
+.footer_bor{
+  border-top: 3px solid #5a5a5a;
+}
+#footer{
+  width: 1320px;
+  height: 317px;
+  margin: auto;
+  position: relative;
+
+}
+.footer_left{
+  float: left;
+  margin-left: 384px;
+  margin-top: 114px;
+}
+.footer_left li{
+  margin-right: 40px;
+  float: left;
+}
+.footer_right{
+  float: right;
+  margin-top: 114px;
+}
+.footer_right li{
+  float: left;
+  margin-left: 15px;
+}
+#footer p{
+  margin-left: 384px;
+  clear: both;
+  padding-top: 20px;
+  line-height: 40px;
+  font-size: 18px;
+  opacity: 0.7;
+}
+#footer .footer_logo{
+  position: absolute;
+  top: 124px;
+  left: 46px;
+  opacity: 1;
+}
+#footer .footer_left a, .footer_right a{
+  opacity: 0.7;
+}
+#footer a:hover{
+  opacity: 1;
+}
+/*footer 끝*/
